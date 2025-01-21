@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  h1{
+    color: white;
+  }
+  
+  #alimentos {
+    margin: 20px 0;
+  }
+
+  .botao-hover {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    border-radius: 9px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .botao-hover:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+  }
+
+  .alimento {
+    margin: 5px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  #itens-selecionados {
+    margin-top: 20px;
+    color: white;
+  }
+  
+  footer {
+    margin-top: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  

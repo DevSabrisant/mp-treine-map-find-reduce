@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de Calorias</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="../stylesDefault.css">
-  <script type="module" src="../data.js"></script>
-  <script type="module" src="./script.js"></script>
+  <script type="module" src="data.js"></script>
+  <script src="script.js" defer></script>
+
 </head>
+
+<body>
+  <h1>Calculadora de Calorias</h1>
+
+  <div id="alimentos">
+    
+    <button class="botao-hover" data-nome="Maçã" data-calorias="52">Maçã - 52 Calorias</button>
+    <button class="botao-hover" data-nome="Banana" data-calorias="89">Banana - 89 Calorias</button>
+    <button class="botao-hover" data-nome="Pizza" data-calorias="285">Pizza - 285 Calorias</button>
+    <button class="botao-hover" data-nome="Hamburguer" data-calorias="250">Hamburguer - 250 Calorias</button>
+    <button class="botao-hover" data-nome="Cachorro-quente" data-calorias="150">Cachorro-quente - 150 Calorias</button>
+    <button class="botao-hover" data-nome="Pão Francês com Ovo" data-calorias="212">Pão Francês com Ovo - 212 Calorias</button>
+  </div>
+
+  <div id="itens-selecionados">
+    <h3>Itens Selecionados</h3>
+    <ul id="lista-itens"></ul>
+  </div>
+
+  <footer>
+    <p>Total de Calorias: <span id="total-calorias">0</span> Calorias</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 
 
 </html>

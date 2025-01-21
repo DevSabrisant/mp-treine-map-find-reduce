@@ -3,10 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style.css">
-  <script type="module" src="../data.js"></script>
-  <script src="./script.js" defer type="module" ></script>
-  <title>Menu</title>
+  <title>Criador de Drinks</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
 </head>
+<body>
+  <h1>Criador de Drinks</h1>
+  
+  <label for="fruta">Escolha uma fruta:</label>
+  <select id="fruta">
+    <option value="limão">Limão</option>
+    <option value="laranja">Laranja</option>
+    <option value="abacaxi">Abacaxi</option>
+    <option value="morango">Morango</option>
+  </select>
 
+  <label for="destilado">Escolha um destilado:</label>
+  <select id="destilado">
+    <option value="vodka">Vodka</option>
+    <option value="rum">Rum</option>
+    <option value="tequila">Tequila</option>
+  </select>
+
+  <button id="criar-drink">Criar Drink</button>
+
+  <div id="resultado"></div>
+
+  <!-- Link para o arquivo JavaScript -->
+  <script src="script.js"></script>
+</body>
 </html>
